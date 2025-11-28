@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Section titles */
+h2 {
+  margin-bottom: 1rem;
+}
+
+/* Project hover */
+.project {
+  transition: 0.3s;
+  text-align: center;
+  cursor: pointer;
+}
+
+.project:hover {
+  background: #e7f1ff;
+  transform: translateY(-3px);
+}
